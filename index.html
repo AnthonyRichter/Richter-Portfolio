@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="Assets/CSS/styles.css"> 
+</head>
+<body>
+  <header>
+    <h1>Anthony Richter's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="Assets/images/Profile Pic.jpg" class="smaller-image" alt="Developer's Photo">
+        <p>Die Hard Packers fan for most of my life.</p>
+        <p>I've been in the construction field for 15 years.</p>
+        <p>Excited to learn the coding side of the world.</p>
+
+    </section>
+
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="app-images">
+        <a href="https://anthonyrichter.github.io/Horiseon-Webpage/">
+          <img src="Assets/images/_C__Users_antho_bootcamp_Horiseon-Webpage_index.html.png" alt="App 1">
+          <p>Horiseon Project</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label> 
+        <input type="text" id="email" email="email" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

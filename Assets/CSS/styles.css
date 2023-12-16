@@ -1,0 +1,103 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: teal;
+  }
+  
+  header {
+    background-color: forestgreen;
+    color: goldenrod;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: pink;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width:800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .smaller-image {
+    width: 400px;
+    height: auto;
+  }
+  .app-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .app-images a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .app-images img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .app-images img:hover {
+    transform: scale(1.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #333;
+  }
